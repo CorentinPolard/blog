@@ -1,0 +1,110 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #f8f9fa;
+}
+
+/* Style du carousel */
+/* Taille des boutons du carousel */
+.h-550px {
+  height: 550px;
+}
+
+.img-carousel {
+  height: 550px;
+  /* width: auto; */
+  object-fit: cover;
+}
+
+.carousel-desc {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Style des cards */
+.img-card {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.badge {
+  height: 40px;
+  width: auto;
+}
+
+/* Style de l'article */
+.article-img {
+  height: 400px;
+  width: auto;
+}
+
+/* Style des commentaire */
+.comment-section {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 15px;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 25px;
+}
+
+.comment {
+  background-color: white;
+  padding: 10px 10px 0 10px;
+  border: solid 1px black;
+  border-radius: 25px;
+}
+
+.comment-title {
+  display: flex;
+  gap: 10px;
+}
+
+.date {
+  color: gray;
+}
+
+/* Style du formulaire */
+form {
+  width: 400px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
+
+.label-create {
+  width: 82px;
+}
+
+.label-comment {
+  width: 130px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 100px;
+}
+
+input[type="submit"] {
+  width: 255px;
+}

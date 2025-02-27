@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="ComputerScience">
+  <path fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M37 2.7H4.2C2.4 2.7 1 4.2 1 6v41c0 1.8 1.4 3.2 3.2 3.2h55.6c1.8 0 3.2-1.4 3.2-3.2V6c0-1.8-1.4-3.2-3.2-3.2L37 2.7h0zM5 40.5h58" class="colorStroke000000 svgStroke"></path>
+  <circle cx="33.7" cy="19.9" r="4.1" fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" class="colorStroke000000 svgStroke"></circle>
+  <path fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m33.7 24-2 5.3" class="colorStroke000000 svgStroke"></path>
+  <circle cx="30.7" cy="31.7" r="2.6" fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" class="colorStroke000000 svgStroke"></circle>
+  <path fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M29.6 19.9h-5.1" class="colorStroke000000 svgStroke"></path>
+  <circle cx="21.9" cy="19.9" r="2.6" fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" class="colorStroke000000 svgStroke"></circle>
+  <path fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m36.7 17 3.5-3.6" class="colorStroke000000 svgStroke"></path>
+  <circle cx="42.1" cy="11.5" r="2.6" fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" transform="rotate(-45.001 42.086 11.513)" class="colorStroke000000 svgStroke"></circle>
+  <path fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m36.7 22.8 3.5 3.6" class="colorStroke000000 svgStroke"></path>
+  <circle cx="42.1" cy="28.3" r="2.6" fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" transform="rotate(-45.001 42.123 28.297)" class="colorStroke000000 svgStroke"></circle>
+  <path fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m30.8 17-3.6-3.6" class="colorStroke000000 svgStroke"></path>
+  <circle cx="25.4" cy="11.5" r="2.6" fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" transform="rotate(-45.001 25.373 11.48)" class="colorStroke000000 svgStroke"></circle>
+  <path fill="none" stroke="#767fad" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m42.3 57.1-.9-.6c-.2-.2-.5-.4-.6-.7H23.2c-.2.3-.4.5-.6.7l-.9.6c-.6.4-.9 1.1-.9 1.9v.9c0 .8.6 1.4 1.4 1.4h19.7c.8 0 1.4-.6 1.4-1.4V59c0-.8-.4-1.5-1-1.9zM40.4 55l-2-4.8H25.5l-2 4.8c-.1.3-.2.6-.4.8h17.6c0-.3-.2-.5-.3-.8zM29.4 45.4h5.2" class="colorStroke000000 svgStroke"></path>
+</svg>
