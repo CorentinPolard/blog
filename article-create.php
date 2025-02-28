@@ -1,48 +1,38 @@
 <?php
 $title = "Poster";
-include_once "./components/header.php"
+include_once "./components/header.php";
+require_once "./functions/extrait.php";
+$categories = getCategories();
 ?>
 
 <main class="container">
     <h1>Poster un article</h1>
-    <form action="./traitement-create-article.php" method="post">
-        <div>
-            <label class="label-create" for="title">Titre :</label>
-            <input id="title" name="title" type="text" required />
+    <form class="from-article" action="./form-processing/traitement-create-article.php" method="post">
+        <div class="mb-3">
+            <label for="title" class="form-label">Titre :</label>
+            <input type="text" class="form-control" id="title" name="title" required>
         </div>
         <div>
             <label class="label-create" for="category">Catégorie :</label>
-            <select id="category" name="category">
-                <option value=1>Jeux vidéo</option>
-                <option value=2>Film</option>
-                <option value=3>Série</option>
-                <option value=4>Animé</option>
-                <option value=5>Écologie</option>
-                <option value=6>Informatique</option>
-                <option value=7>Psychologie</option>
-                <option value=8>Histoire</option>
-                <option value=9>Religion</option>
-                <option value=10>Astronomie</option>
-                <option value=11>Astrologie</option>
-                <option value=12>Cuisine</option>
-                <option value=13>Voyage</option>
-                <option value=14>Politique</option>
-                <option value=15>Médecine</option>
+            <select id="category" name="category" class="form-select">
+                <?php foreach ($categories as $category): ?>
+                    <option value=<?php echo "$category[id]" ?>><?php echo "$category[label]" ?></option>
+                <?php endforeach; ?>
             </select>
         </div>
-        <div>
-            <label class="label-create" for="content">Contenu de l'article :</label>
-            <textarea id="content" name="content" type="text-area" required></textarea>
+        <div class="mb-3">
+            <label for="content" class="form-label">Contenu de l'article :</label>
+            <textarea class="form-control" id="content" name="content" rows="3" required></textarea>
         </div>
-        <div>
-            <label class="label-create" for="media">Image :</label>
-            <textarea id="media" name="media" type="text" required></textarea>
+        <div class="mb-3">
+            <label for="media" class="form-label">Image :</label>
+            <input type="text" class="form-control" id="media" name="media" required>
         </div>
-        <div>
-            <label class="label-create" for="summary">Résumé :</label>
-            <textarea id="summary" name="summary" type="text-area" required></textarea>
+        <div class="mb-3">
+            <label for="summary" class="form-label">Résumé :</label>
+            <textarea class="form-control" id="summary" name="summary" rows="3" required></textarea>
         </div>
-        <input type="submit" value="Envoyer" />
+        <button type="submit" class="btn btn-primary">Poster</button>
     </form>
 </main>
 

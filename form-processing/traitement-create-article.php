@@ -2,7 +2,7 @@
 
 if (isset($_POST["title"]) && isset($_POST["category"]) && isset($_POST["content"]) && isset($_POST["category"]) && isset($_POST["content"]) && isset($_POST["media"]) && isset($_POST["summary"])) {
 
-    require_once "./db/pdo.php";
+    require_once "./../db/pdo.php";
 
     $title = $_POST["title"];
     $category_id = $_POST["category"];
@@ -21,5 +21,5 @@ if (isset($_POST["title"]) && isset($_POST["category"]) && isset($_POST["content
     ]);
 }
 
-header("Location: ./article-create.php");
+header("Location: ./../article-create.php");
 exit();

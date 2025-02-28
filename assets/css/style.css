@@ -10,6 +10,8 @@ main {
 }
 
 footer {
+  padding: 15px;
+  margin-top: 15px;
   background-color: #f8f9fa;
 }
 
@@ -21,7 +23,6 @@ footer {
 
 .img-carousel {
   height: 550px;
-  /* width: auto; */
   object-fit: cover;
 }
 
@@ -30,6 +31,20 @@ footer {
 }
 
 /* Style des cards */
+
+.archive {
+  margin-top: 15px;
+}
+
+.resizing {
+  display: flex;
+  flex-direction: column;
+}
+
+.resizing:hover {
+  transform: scale(1.05);
+}
+
 .img-card {
   height: 200px;
   object-fit: cover;
@@ -49,6 +64,8 @@ footer {
 .article-img {
   height: 400px;
   width: auto;
+  display: block;
+  margin: auto;
 }
 
 /* Style des commentaire */
@@ -77,34 +94,20 @@ footer {
   color: gray;
 }
 
-/* Style du formulaire */
-form {
-  width: 400px;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: flex-end;
+@media screen and (min-width: 576px) {
+  .resizing {
+    min-height: 600px;
+  }
 }
 
-.label-create {
-  width: 82px;
+@media screen and (min-width: 768px) {
+  .resizing {
+    min-height: 550px;
+  }
 }
 
-.label-comment {
-  width: 130px;
-}
-
-input,
-textarea {
-  margin-bottom: 10px;
-  width: 250px;
-  border-radius: 10px;
-}
-
-textarea {
-  vertical-align: top;
-  height: 100px;
-}
-
-input[type="submit"] {
-  width: 255px;
+@media screen and (min-width: 1200px) {
+  .resizing {
+    min-height: 500px;
+  }
 }
